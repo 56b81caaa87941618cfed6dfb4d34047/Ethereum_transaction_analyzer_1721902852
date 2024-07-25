@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nCan you describe the project a bit more?\nAI: Got it. Adding a button with the text \"Hello World\".\nUser: add a button that says hello world\nAI: Got it! I'll add a button that says \"hello world\".\nUser: add a button that says hello world\nAI: I'll add a button that says \"Hello World\".\nUser: add a button that says hello world\nThis is the user's current request of changes to be made: add a button that says hey there"
+    },
+    {
+        "level": 1,
+        "task_description": "add a button that says how are you"
     }
 ]
