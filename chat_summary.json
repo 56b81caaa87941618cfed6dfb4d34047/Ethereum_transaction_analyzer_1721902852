@@ -24,5 +24,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the 'Hello World' button be positioned on the screen?\", \"option1\": \"Center of the main screen\", \"option2\": \"Bottom right corner of the app\"}, {\"question 2\": \"What functionality should be triggered when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new screen with 'Hello World' details\"}], \"input_token_count\": 261, \"output_token_count\": 104, \"time_taken\": \"0:00:03.727172\"}",
         "timestamp": "25072024102338",
         "message_id": "guest25072024102333"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Display recent Ethereum transactions\", \"checked\": true}, {\"feature\": \"Real-time transaction alerts\", \"checked\": false}, {\"feature\": \"Transaction history search functionality\", \"checked\": true}, {\"feature\": \"Graphs to visualize transaction trends\", \"checked\": false}, {\"feature\": \"Filter options for transactions (by value, date, etc.)\", \"checked\": true}, {\"feature\": \"Detailed transaction information on click\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 96, \"time_taken\": \"0:00:05.209994\"}",
+        "timestamp": "25072024102340",
+        "message_id": "guest25072024102333"
     }
 ]
