@@ -4,8 +4,8 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1721902856", {
     template: `
-    <section id="cta-section-container" class="flex">
-        <div id="sidebar" class="w-64 h-screen bg-purple-800 text-white p-6">
+    <section id="cta-section-container" class="flex bg-gray-900">
+        <div id="sidebar" class="w-64 h-screen bg-gray-800 text-white p-6">
             <nav>
                 <ul>
                     <li class="mb-4"><a href="#" class="hover:text-purple-300"><i class='bx bx-home mr-2'></i>Home</a></li>
@@ -14,7 +14,7 @@ Vue.component("purple_background_cta_component_1721902856", {
                 </ul>
             </nav>
         </div>
-        <div id="section-container" class="flex-1 max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+        <div id="section-container" class="flex-1 max-w-6xl mx-auto px-4 sm:px-6 bg-gray-900">
             <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
@@ -33,13 +33,13 @@ Vue.component("purple_background_cta_component_1721902856", {
                 <div id="content" class="max-w-3xl mx-auto text-center">
                     <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Uncover Hidden Patterns and Opportunities</div></div>
                     <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Real-Time Ethereum Transaction Analysis</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Stay ahead of the curve with our cutting-edge Ethereum transaction analysis app. Monitor and dissect new transactions as they occur on the blockchain.</p></div>
-                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
+                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8 text-gray-300" :class="[contentBodyStyle]">Stay ahead of the curve with our cutting-edge Ethereum transaction analysis app. Monitor and dissect new transactions as they occur on the blockchain.</p></div>
+                    <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
                 </div>
             </div>
         </div>
     </section>
-    </section>`,
+    `,
         data() {
             return {
                 expanded: false, 
