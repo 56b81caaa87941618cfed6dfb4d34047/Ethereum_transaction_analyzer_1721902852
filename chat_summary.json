@@ -42,5 +42,11 @@
         "content": "Got it! I'll add a button that says \"hello world\".",
         "timestamp": "25072024102459",
         "message_id": "guest25072024102456"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time transaction notification toggle\", \"checked\": true}, {\"feature\": \"Detailed transaction history page\", \"checked\": false}, {\"feature\": \"Customizable dashboard for tracking specific addresses\", \"checked\": false}, {\"feature\": \"Graphs and analytics for transaction patterns over time\", \"checked\": false}, {\"feature\": \"Dark and light mode UI option\", \"checked\": true}, {\"feature\": \"Filter and search functionality for transactions\", \"checked\": false}], \"input_token_count\": 263, \"output_token_count\": 110, \"time_taken\": \"0:00:04.634721\"}",
+        "timestamp": "25072024102502",
+        "message_id": "guest25072024102456"
     }
 ]
