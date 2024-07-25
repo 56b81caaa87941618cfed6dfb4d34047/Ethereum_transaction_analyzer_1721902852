@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a button that says how are you",
+        "message_id": "guest25072024102738",
+        "timestamp": "25072024102738",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where do you want the 'hey there' button to be positioned on the app's interface?\", \"option1\": \"Above the current 'hello world' button\", \"option2\": \"Below the current 'hello world' button\"}, {\"question 2\": \"Do you want the 'hey there' button to have any specific color or design style different from the 'hello world' button?\", \"option1\": \"Keep the same style as the 'hello world' button\", \"option2\": \"Apply a new style or color to the 'hey there' button\"}], \"input_token_count\": 369, \"output_token_count\": 129, \"time_taken\": \"0:00:10.418778\"}",
         "message_id": "guest25072024102658",
