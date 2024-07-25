@@ -4,13 +4,22 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 
 Vue.component("purple_background_cta_component_1721902856", {
     template: `
-    <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
+    <section id="cta-section-container" class="flex">
+        <div id="sidebar" class="w-64 h-screen bg-purple-800 text-white p-6">
+            <nav>
+                <ul>
+                    <li class="mb-4"><a href="#" class="hover:text-purple-300"><i class='bx bx-home mr-2'></i>Home</a></li>
+                    <li class="mb-4"><a href="#" class="hover:text-purple-300"><i class='bx bx-info-circle mr-2'></i>About</a></li>
+                    <li class="mb-4"><a href="#" class="hover:text-purple-300"><i class='bx bx-envelope mr-2'></i>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="section-container" class="flex-1 max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-[120px] opacity-70" :class="radialGradientPrimaryStyle"></div>
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-[40px]" :class="radialGradientSecondaryStyle">
+                    <div id="radial-gradient-outer" class="absolute inset-0 translate-z-0 rounded-full blur-120px opacity-70" :class="radialGradientPrimaryStyle"></div>
+                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40px" :class="radialGradientSecondaryStyle">
                     </div>
                 </div>
                 <!-- Blurred shape -->
@@ -29,6 +38,7 @@ Vue.component("purple_background_cta_component_1721902856", {
                 </div>
             </div>
         </div>
+    </section>
     </section>`,
         data() {
             return {
