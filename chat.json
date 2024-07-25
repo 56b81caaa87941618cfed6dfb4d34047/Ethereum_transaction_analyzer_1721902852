@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the sidebar to be always visible or should it be hidden and accessible via a menu icon?\", \"option1\": \"Always visible\", \"option2\": \"Accessible via a menu icon\"}, {\"question 2\": \"Should the sidebar have a fixed position when scrolling, or should it scroll with the page?\", \"option1\": \"Fixed position\", \"option2\": \"Scroll with the page\"}], \"input_token_count\": 266, \"output_token_count\": 96, \"time_taken\": \"0:00:07.265574\"}",
+        "message_id": "guest25072024102933",
+        "timestamp": "25072024102943",
+        "component_file_name": "purple_background_cta_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Working on adding a sidebar with the specified navlinks.",
         "message_id": "guest25072024102933",
