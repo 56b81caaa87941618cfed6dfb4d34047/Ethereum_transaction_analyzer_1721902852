@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the 'How are you' button be positioned on the screen?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen as a floating action button\"}, {\"question 2\": \"What should happen when the 'How are you' button is clicked?\", \"option1\": \"Open up a feedback form\", \"option2\": \"Display a list of mood options\"}], \"input_token_count\": 262, \"output_token_count\": 100, \"time_taken\": \"0:00:07.688063\"}",
+        "message_id": "guest25072024102738",
+        "timestamp": "25072024102748",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, adding a button that says \"How are you\".",
         "message_id": "guest25072024102738",
