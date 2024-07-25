@@ -56,7 +56,7 @@ Vue.component("purple_feature_grid_component_1721902856", {
             <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm" :class="textPrimaryStyle">We prioritize security and privacy, ensuring that your transaction data remains safe and confidential throughout the analysis process.</p></div>
         </div>
     </div>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+    <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-lg shadow-lg transform transition duration-200 ease-in-out hover:scale-105 border border-purple-400 mt-6">
         Hello World
     </button>
 </div>`,
