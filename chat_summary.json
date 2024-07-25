@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1721902855",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "25072024102333",
-        "message_id": "guest25072024102333"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "I'll add a button that says \"Hello World\".",
-        "timestamp": "25072024102334",
-        "message_id": "guest25072024102333"
-    },
-    {
         "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the 'Hello World' button be positioned on the screen?\", \"option1\": \"Center of the main screen\", \"option2\": \"Bottom right corner of the app\"}, {\"question 2\": \"What functionality should be triggered when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new screen with 'Hello World' details\"}], \"input_token_count\": 261, \"output_token_count\": 104, \"time_taken\": \"0:00:03.727172\"}",
-        "timestamp": "25072024102338",
-        "message_id": "guest25072024102333"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Display recent Ethereum transactions\", \"checked\": true}, {\"feature\": \"Real-time transaction alerts\", \"checked\": false}, {\"feature\": \"Transaction history search functionality\", \"checked\": true}, {\"feature\": \"Graphs to visualize transaction trends\", \"checked\": false}, {\"feature\": \"Filter options for transactions (by value, date, etc.)\", \"checked\": true}, {\"feature\": \"Detailed transaction information on click\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 96, \"time_taken\": \"0:00:05.209994\"}",
-        "timestamp": "25072024102340",
-        "message_id": "guest25072024102333"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "25072024102456",
-        "message_id": "guest25072024102456"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Got it! I'll add a button that says \"hello world\".",
-        "timestamp": "25072024102459",
-        "message_id": "guest25072024102456"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time transaction notification toggle\", \"checked\": true}, {\"feature\": \"Detailed transaction history page\", \"checked\": false}, {\"feature\": \"Customizable dashboard for tracking specific addresses\", \"checked\": false}, {\"feature\": \"Graphs and analytics for transaction patterns over time\", \"checked\": false}, {\"feature\": \"Dark and light mode UI option\", \"checked\": true}, {\"feature\": \"Filter and search functionality for transactions\", \"checked\": false}], \"input_token_count\": 263, \"output_token_count\": 110, \"time_taken\": \"0:00:04.634721\"}",
-        "timestamp": "25072024102502",
-        "message_id": "guest25072024102456"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "25072024102557",
-        "message_id": "guest25072024102557"
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the app interface?\", \"option1\": \"Top of the home screen\", \"option2\": \"Bottom of the home screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a welcome message\", \"option2\": \"Navigate to a new page\"}], \"input_token_count\": 335, \"output_token_count\": 95, \"time_taken\": \"0:00:02.376992\"}",
+        "message_id": "guest25072024102557",
+        "timestamp": "25072024102601",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "chat_acknowledge",
         "content": "Got it. Adding a button with the text \"Hello World\".",
+        "message_id": "guest25072024102557",
         "timestamp": "25072024102559",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest25072024102557",
+        "timestamp": "25072024102557",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time transaction notification toggle\", \"checked\": true}, {\"feature\": \"Detailed transaction history page\", \"checked\": false}, {\"feature\": \"Customizable dashboard for tracking specific addresses\", \"checked\": false}, {\"feature\": \"Graphs and analytics for transaction patterns over time\", \"checked\": false}, {\"feature\": \"Dark and light mode UI option\", \"checked\": true}, {\"feature\": \"Filter and search functionality for transactions\", \"checked\": false}], \"input_token_count\": 263, \"output_token_count\": 110, \"time_taken\": \"0:00:04.634721\"}",
+        "message_id": "guest25072024102456",
+        "timestamp": "25072024102502",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it! I'll add a button that says \"hello world\".",
+        "message_id": "guest25072024102456",
+        "timestamp": "25072024102459",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest25072024102456",
+        "timestamp": "25072024102456",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Display recent Ethereum transactions\", \"checked\": true}, {\"feature\": \"Real-time transaction alerts\", \"checked\": false}, {\"feature\": \"Transaction history search functionality\", \"checked\": true}, {\"feature\": \"Graphs to visualize transaction trends\", \"checked\": false}, {\"feature\": \"Filter options for transactions (by value, date, etc.)\", \"checked\": true}, {\"feature\": \"Detailed transaction information on click\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 96, \"time_taken\": \"0:00:05.209994\"}",
+        "message_id": "guest25072024102333",
+        "timestamp": "25072024102340",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where should the 'Hello World' button be positioned on the screen?\", \"option1\": \"Center of the main screen\", \"option2\": \"Bottom right corner of the app\"}, {\"question 2\": \"What functionality should be triggered when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message saying 'Hello World'\", \"option2\": \"Navigate to a new screen with 'Hello World' details\"}], \"input_token_count\": 261, \"output_token_count\": 104, \"time_taken\": \"0:00:03.727172\"}",
+        "message_id": "guest25072024102333",
+        "timestamp": "25072024102338",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "I'll add a button that says \"Hello World\".",
+        "message_id": "guest25072024102333",
+        "timestamp": "25072024102334",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest25072024102333",
+        "timestamp": "25072024102333",
+        "component_file_name": "purple_header_component_1721902856",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "25072024102601",
         "message_id": "guest25072024102557"
     }
 ]
